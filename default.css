@@ -1,0 +1,127 @@
+body {
+  font-size: 36px;
+  margin-top: 150px;
+}
+#jukebox {
+  width: 600px;
+  margin: 0 auto;
+  background-color: rgba(160,160,160,0.8);
+  padding: 20px;
+  border-radius: 20px;
+}
+#jukebox h3 {
+  margin: 0 0 10px;
+  padding: 0 0 10px;
+  text-align: center;
+  text-shadow: 1px 1px #000;
+  border-bottom: 2px solid black;
+}
+h4{
+  color: pink;
+  text-align: center;
+  text-shadow: 1px 1px #000;
+}
+#jukebox .fa {
+  margin: 0 10px;
+}
+#jukebox .controls {
+  text-align: center;
+  color: pink;
+}
+
+#pause {
+  display: none;
+}
+h1 {
+  text-align: center;
+  color: pink;
+  margin: 20px auto;
+  text-shadow: 2px 2px #000;
+}
+
+html {
+  font-size: 30px;
+  height: 100%;
+  background-image: url("speaker.jpg");
+  background-size: cover;
+}
+/*h1 {
+  text-align: center;
+  margin: 20px auto;
+  text-shadow: 2px 2px #000;
+}*/
+.container {
+  width: 30%;
+  margin: auto;
+  background-color: rgba(0,0,0,0.2);
+  border: 5px solid #000;
+}
+#pause {
+  display: none;
+  color: pink;
+}
+#play {
+  color: pink;
+}
+#volume {
+  width: 40%;
+  display: inline-block;
+}
+#playlist {
+  width: 80%;
+  margin: 20px auto;
+  margin-bottom: 20px;
+  background-color: rgba(0,0,0,0.2);
+  height: 300px;
+  overflow: scroll;
+  font-size: 20px;
+  border: 1px solid #000;
+}
+.vol {
+  text-align: center;
+  margin: auto;
+}
+.ppbuttons {
+  text-align: center;
+}
+.fa {
+  cursor: pointer;
+  padding: 10px;
+}
+h3 {
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 25px;
+  color: pink;
+}
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+li {
+  margin-top: 10px;
+}
+i {
+  text-shadow: 2px 2px #000;
+}
+#clickme {
+  text-align: center;
+  margin: auto;
+  display: block;
+  font-size: 30px;
+  color: rgba(255,204,204,0.7)
+}
+li:hover {
+  color: rgba(204,255,229,0.8);
+}
+i:hover {
+  text-shadow: none;
+}
+#hide {
+  text-align: center;
+  margin: auto;
+  display: block;
+  font-size: 20px;
+  color: rgba(255,204,204,0.7)
+}
